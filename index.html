@@ -1,11 +1,168 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ai.evolution</title>
+    <title>AI Evolution</title>
+    <style>
+        /* Reset básico */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        /* Encabezado */
+        header {
+            background-color: #1a1a1a;
+            color: white;
+            padding: 20px 0;
+        }
+
+        header h1 {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+                        url('https://source.unsplash.com/1600x600/?technology,ai') center/cover no-repeat;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+        }
+
+        .hero h2 {
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+        }
+
+        /* Secciones */
+        .section {
+            padding: 60px 20px;
+            background-color: white;
+        }
+
+        .section.alt {
+            background-color: #f0f0f0;
+        }
+
+        .section h2 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .section ul {
+            list-style: disc;
+            padding-left: 40px;
+        }
+
+        /* Contacto */
+        #contacto p {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #1a1a1a;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+        }
+    </style>
 </head>
 <body>
-<h1>ejemplo pagina web</h1>
+    <header>
+        <div class="container">
+            <h1>AI Evolution</h1>
+            <nav>
+                <ul>
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2>Transformando el futuro con Inteligencia Artificial</h2>
+            <p>Soluciones innovadoras para empresas del mañana.</p>
+        </div>
+    </section>
+
+    <section id="nosotros" class="section">
+        <div class="container">
+            <h2>Sobre Nosotros</h2>
+            <p>En AI Evolution, nos especializamos en el desarrollo de soluciones basadas en inteligencia artificial que ayudan a las empresas a optimizar procesos, tomar decisiones más inteligentes y liderar en la era digital.</p>
+        </div>
+    </section>
+
+    <section id="servicios" class="section alt">
+        <div class="container">
+            <h2>Nuestros Servicios</h2>
+            <ul>
+                <li>Desarrollo de modelos de IA personalizados</li>
+                <li>Automatización de procesos empresariales</li>
+                <li>Análisis de datos con IA</li>
+                <li>Consultoría en transformación digital</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contacto" class="section">
+        <div class="container">
+            <h2>Contacto</h2>
+            <p>Ponte en contacto con nosotros para comenzar tu transformación digital.</p>
+            <p>Email: contacto@aievolution.com</p>
+            <p>Teléfono: +34 600 123 456</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 AI Evolution. Todos los derechos reservados.</p>
+        </div>
+    </footer>
 </body>
 </html>
